@@ -150,8 +150,7 @@
   figure{
     margin: 0;
   }
-  
-   
+     
   address {
    font-style: normal;
   }
@@ -197,10 +196,6 @@ header figure {
   flex-flow: row wrap;
 }
 
-figure{
-  margin: 0;
-}
-
 .header-divider{
   background: #3a3a3a; 
   width:100%;
@@ -236,7 +231,6 @@ header nav ul li {
 }
 
 
-
 header figure {
   width: 60%;
   display: flex;
@@ -244,10 +238,6 @@ header figure {
   align-items: center;
   flex-flow: row wrap;
 }
-
-figure{
-    margin: 0;
-  }
 
   footer {
     text-align: center;
@@ -385,7 +375,7 @@ aside .content-wrapper{
   flex-flow: row wrap;
 }
 
-div .map{
+.map figure{
   width: 100%;
   height:0;
   padding-bottom: 125%;
