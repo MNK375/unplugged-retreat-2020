@@ -107,7 +107,7 @@
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    color:black;
+    color: black;
      text-align: left;
     /**** color: #e2e3ed;************/
   
@@ -115,9 +115,9 @@
    
   ul, 
   ol {
-    list-style-type: none;   
+    list-style-type: none;  
   }
-   
+
   a {
     color: #e2e3ed;
      text-decoration: none;
@@ -248,7 +248,7 @@ header figure {
     margin: 0;
   }
   
-  footer .content-wrapper {
+  footer .contact-wrapper {
     width: 55%;
     margin: 50px 0;
   }
@@ -296,33 +296,50 @@ header figure {
 
 /* Aside */
 
-aside{
+aside {
       background-color: #527158;
      display: flex;
      justify-content: center;
       align-items: center;
       flex-flow: row wrap;
 }
+
 aside .form{
   margin-top: 30px;
 }
 
-aside .content-wrapper{
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
 
 /* Features */
 .features{
-     background: url('../img/unplugged-retreat-features.jpg');
-     background-size: cover;
-     display: flex;
-     justify-content: center;
-     align-content: center;
-     flex-flow: row wrap;
+background: url('../img/unplugged-retreat-features.jpg');
+background-size: cover;
+ display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .features h2{
@@ -345,6 +362,7 @@ aside .content-wrapper{
   text-align: center;
   margin: 0;
 }
+
 /* Reviews */
 .reviews{
   background-color: #2a423a;
@@ -397,7 +415,7 @@ aside .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
+  }
 
 .contact-content p{
   margin: 0;
