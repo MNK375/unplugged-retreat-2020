@@ -107,7 +107,7 @@
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    color: black;
+    color: white;
      text-align: left;
     /**** color: #e2e3ed;************/
   
@@ -259,7 +259,7 @@ header figure {
   
   footer .social-icons {
     display: flex;
-    justify-content:center;
+    justify-content:space-around; 
     align-items: center;
   }
   
@@ -277,8 +277,8 @@ header figure {
 /* ----- Mobile Styles - Homepage -------------- */
 /* Hero Area */
 
-.hero-area{
-  background: url(../img/unplugged-retreat.jpg);
+.hero-area {
+  background-image: url('img/jake-melara-30679-unsplash.jpg');
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -334,7 +334,7 @@ input[type=button] {
 
 /* Features */
 .features{
-background: url('../img/unplugged-retreat-features.jpg');
+background-image: url('img/rawpixel-800820-unsplash1.jpg');
 background-size: cover;
  display: flex;
   justify-content: center;
