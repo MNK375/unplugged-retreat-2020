@@ -213,7 +213,9 @@ header nav{
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
+  padding: 10px;
 }
+
 
 header nav ul{
   display: flex;
@@ -278,7 +280,7 @@ header figure {
 /* Hero Area */
 
 .hero-area {
-  background-image: url('img/jake-melara-30679-unsplash.jpg');
+  background-image: url("../img/jake-melara-30679-unsplash.jpg");
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -334,8 +336,9 @@ input[type=button] {
 
 /* Features */
 .features{
-background-image: url('img/rawpixel-800820-unsplash1.jpg');
+background-image: url("../img/rawpixel-800820-unsplash1.jpg");
 background-size: cover;
+width: 100%;
  display: flex;
   justify-content: center;
   align-content: center;
@@ -392,6 +395,8 @@ background-size: cover;
   align-items: center;
   flex-flow: row wrap;
 }
+
+
 
 .map figure{
   width: 100%;
@@ -611,6 +616,10 @@ input[type=button] {
     .header-divider {
       display: none;
     }
+    
+    header nav ul li{
+      padding: 10px;
+    }
 
       /* hero area*/
    
@@ -744,6 +753,10 @@ footer .copyright {
   font-size: 1.5em;
 }
 
+nav.nav-about{
+  padding: 10px;
+}
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -763,6 +776,12 @@ footer .copyright {
 .faq p {
     font-size: .875em;
     line-height: 1.125;
+}
+
+nav.nav-faq{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
 }
 
 
@@ -794,6 +813,11 @@ footer .copyright {
       .hero-area h1 {
         font-size: 3.75em;
          width: 80%;
+      }
+
+      .hero-area {
+        min-height: 800px;
+        background-position: center; 
       }
    
       /* Aside */
@@ -853,10 +877,26 @@ footer .copyright {
           font-size: 3em;
       }
 
+     
+
       .faq h4,
       .faq p {
           font-size: 1.125em;
           line-height: 1;
+      }
+    }
+
+    @media only screen and (min-width: 780px) {  
+      /*tablet styles here */  
+
+      /*about peage*/
+      .nav-about{
+        padding: 10px;
+      }
+
+       /*faq peage*/
+       .nav-faq{
+        padding: 10px;
       }
     }
     
